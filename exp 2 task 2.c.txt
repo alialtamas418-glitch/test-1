@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int main() {
+    int start, end, sum = 0;
+
+    /*
+    Name: Altamash ali
+    UIN : 251p039
+    class : comps eng
+    division : C
+    */
+    printf("Enter the starting number: ");
+    scanf("%d", &start);
+    printf("Enter the ending number: ");
+    scanf("%d", &end);
+
+    // Make sure start is less than end
+    if (start > end) {
+        int temp = start;
+        start = end;
+        end = temp;
+    }
+
+    // Loop through numbers and add odd ones
+    for (int i = start; i <= end; i++) {
+        if (i % 2 != 0) {  // Check for odd number
+            sum += i;
+        }
+    }
+
+    printf("The sum of all odd numbers between %d and %d is: %d\n", start, end, sum);
+
+    return 0;
+}
