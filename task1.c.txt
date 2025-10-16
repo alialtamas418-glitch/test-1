@@ -1,0 +1,24 @@
+#include<stdio.h>
+
+int main() {
+
+/*
+Name:Altamash ali
+UIN:251P039
+Class: Comps Eng
+Division: C
+*/
+
+char name;
+int age;
+char class;
+char Division;
+int UIN;
+
+printf("Name:Altamash \n", name);
+printf("Age:19 \n", age);
+printf("Class:Comps Eng \n", class);
+printf("Division:C \n", Division);
+printf("UIN:251P039 \n", UIN);
+ return 0;
+}
