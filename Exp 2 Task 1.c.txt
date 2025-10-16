@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main() {
+
+/*
+Name:Altamash ali
+UIN:251P039
+Class: Comps Eng
+Division: C
+*/
+
+int num;
+printf("Enter a number: ");
+scanf("%d", &num);
+
+printf(num %2 == 0?"Number is even":"Number is odd");
+
+return 0;
+}
